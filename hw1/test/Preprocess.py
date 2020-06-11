@@ -1,7 +1,7 @@
 import numpy as np
 from scipy import stats
 
-txt_path = '../breast-cancer-wisconsin.data'  # txt文本路径
+txt_path = '../data/breast-cancer-wisconsin.data'  # txt文本路径
 with open(txt_path) as f:
     data_lists = f.readlines()  # 读出的是str类型
 

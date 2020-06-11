@@ -1,0 +1,16 @@
+mid, mname, showyear, director, leadactors, averating, numrating, description, typelist
+0     1       2         3           4           5          6          7           8
+
+
+可以做什么：
+	1，分类：优质电影，评分大于4(或者统计一下前10%)
+		1.1，写一个分类算法
+		1.2，对新加入的电影进行预测
+		其他思路：记录用户评分较高电影的特征，对于新电影，在用户登录时进行推荐
+		
+	2，
+
+
+实验：
+    1，找到numrating top10
+    2，演员存入字典:效果不太理想，应该是有些电影缺少项目

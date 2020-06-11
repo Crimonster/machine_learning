@@ -7,7 +7,7 @@ from decision_tree import DecisionTree
 # 预处理
 
 # 生成np数组
-txt_path = 'breast-cancer-wisconsin.data'  # txt文本路径
+txt_path = 'data/breast-cancer-wisconsin.data'  # txt文本路径
 with open(txt_path) as f:
     data_lists = f.readlines()  # 读出的是str类型
 
