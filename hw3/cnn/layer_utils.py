@@ -1,4 +1,4 @@
-from layers import *
+from cnn.layers import *
 
 
 

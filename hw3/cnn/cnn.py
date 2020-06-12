@@ -1,4 +1,5 @@
-from layer_utils import *
+from cnn.layer_utils import *
+
 
 class ThreeLayerConvNet(object):    
     """    

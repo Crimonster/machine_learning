@@ -1,4 +1,4 @@
-import cPickle as pickle
+import pickle
 import numpy as np
 import os
 #from scipy.misc import imread
@@ -39,7 +39,7 @@ def get_CIFAR10_data(num_training=500, num_validation=50, num_test=50):
 
     cifar10_dir = 'C://download//cifar-10-python//cifar-10-batches-py//'
     X_train, y_train, X_test, y_test = load_CIFAR10(cifar10_dir)
-    print X_train.shape
+    print(X_train.shape)
     # Subsample the data
     mask = range(num_training, num_training + num_validation)
     X_val = X_train[mask]
