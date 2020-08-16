@@ -1,7 +1,8 @@
+from functools import reduce
+
 import numpy as np
 import random
 from torch import Tensor, LongTensor
-from torch.distributed import reduce
 
 
 class FeatureGraphDataset(object):
